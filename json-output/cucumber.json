@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9014636800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to AutoTrader",
+            "match": {
+              "location": "ATSteps.iNavigateToAutoTrader()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3151148400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter postcode",
+            "match": {
+              "location": "ATSteps.iEnterPostcode()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2988334400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "MIN",
+        "description": "",
+        "id": "atra;min",
+        "after": [
+          {
+            "result": {
+              "duration": 4143716500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29392727900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select the dropdown options min",
+            "match": {
+              "location": "ATSteps.iSelectTheDropdownOptionsMin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select search min",
+            "match": {
+              "location": "ATSteps.iSelectSearchMin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see the results min",
+            "match": {
+              "location": "ATSteps.iSeeTheResultsMin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@ATT"
+          }
+        ]
+      }
+    ],
+    "name": "ATra",
+    "description": "Dropdown options",
+    "id": "atra",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/AT.feature"
+  }
+]

@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2988334400,
+  "duration": 3708733800,
   "status": "passed"
 });
 formatter.background({
@@ -31,14 +31,14 @@ formatter.match({
   "location": "ATSteps.iNavigateToAutoTrader()"
 });
 formatter.result({
-  "duration": 9014636800,
+  "duration": 12281476400,
   "status": "passed"
 });
 formatter.match({
   "location": "ATSteps.iEnterPostcode()"
 });
 formatter.result({
-  "duration": 3151148400,
+  "duration": 3155954300,
   "status": "passed"
 });
 formatter.scenario({
@@ -74,25 +74,25 @@ formatter.match({
   "location": "ATSteps.iSelectTheDropdownOptionsMin()"
 });
 formatter.result({
-  "duration": 29392727900,
+  "duration": 29363535100,
   "status": "passed"
 });
 formatter.match({
   "location": "ATSteps.iSelectSearchMin()"
 });
 formatter.result({
-  "duration": 21000,
+  "duration": 22000,
   "status": "passed"
 });
 formatter.match({
   "location": "ATSteps.iSeeTheResultsMin()"
 });
 formatter.result({
-  "duration": 19600,
+  "duration": 17400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4143716500,
+  "duration": 4136194700,
   "status": "passed"
 });
 });

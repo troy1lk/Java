@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="48.690605">
-<testcase classname="ATra" name="MIN" time="48.690605">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.645934">
+<testcase classname="ATra" name="MIN" time="52.645934">
 <system-out><![CDATA[Given I navigate to AutoTrader..............................................passed
 And I enter postcode........................................................passed
 And I select the dropdown options min.......................................passed
